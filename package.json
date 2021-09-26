@@ -1,15 +1,23 @@
 {
-  "name": "hotel",
+  "name": "filterhouse",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.13.0",
-    "@testing-library/react": "^11.2.7",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@react-firebase/database": "^0.3.11",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.4.3",
     "react": "^17.0.2",
+    "react-autocomplete-input": "^1.0.18",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.invoice{
+  /* background-image: url('./Images/invoiceBackground.jpg'); */
+  width: 100%;
+  flex-wrap: wrap;
+  background-size: cover;
+  
+}
+*{
+margin: 0px;
+}
+
+.customerStatement{
+  background-image: url('../src/Images/statementBackground.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 1700px;
+  
+}
+.addingPayments{
+background-image: url('../src/Images/paymentBackground.jpg');
+background-size:cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+flex: 1;
+height: 500px;
 }
